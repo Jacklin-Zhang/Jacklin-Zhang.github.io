@@ -400,6 +400,11 @@ table td {
 .is_visible {
   display: block !important;
 }
+.fireworks {
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+}
 .article-container figure.highlight.js table:before {
   content: "js";
 }
